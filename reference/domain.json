@@ -1,0 +1,17 @@
+{
+  "domain": "greenhouse-irrigation",
+  "timezone": "Asia/Shanghai",
+  "daily_water_limit_liters": 18000,
+  "zones": [
+    {"id": "GH-A-01", "crop": "番茄", "stage": "坐果期", "valve_id": "V-01"},
+    {"id": "GH-A-02", "crop": "彩椒", "stage": "开花期", "valve_id": "V-02"}
+  ],
+  "valves": [
+    {"id": "V-01", "rated_lpm": 120, "shared_line": "L-A"},
+    {"id": "V-02", "rated_lpm": 90, "shared_line": "L-A"}
+  ],
+  "telemetry": [
+    {"event_id": "M-102", "zone_id": "GH-A-01", "occurred_at": "2026-09-11T05:58:00+08:00", "received_at": "2026-09-11T06:04:30+08:00", "moisture": 0.24, "quality": "good"},
+    {"event_id": "M-101", "zone_id": "GH-A-01", "occurred_at": "2026-09-11T05:55:00+08:00", "received_at": "2026-09-11T06:05:10+08:00", "moisture": 0.23, "quality": "suspect"}
+  ]
+}
